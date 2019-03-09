@@ -1,0 +1,14 @@
+<ul>
+  <li *ngFor="let data of all_products">
+    {{ data.name }}
+  </li>
+</ul>
+<hr>
+<br>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <label>Name</label>
+  <input type="text" formControlName="name" placeholder="Name"><br><br>
+  <label>Price</label>
+  <input type="number" formControlName="price" placeholder="Price"><br><br>
+  <button type="submit">Add New!</button>
+</form>
