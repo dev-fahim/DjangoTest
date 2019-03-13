@@ -29,7 +29,7 @@ export class ProductComponent implements OnInit {
     console.log(this.form.value);
     return this._productService.addNewProduct(this.form.value).subscribe(
       (reponse) => {
-        console.log("added okay");
+        this.all_products.push(this.form.value);
       },
       (error) => {
         console.error(error);
