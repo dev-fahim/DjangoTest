@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'nasasun.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydatabase',
-        'USER': 'mydatabaseuser',
-        'PASSWORD': 'mypassword',
-        'HOST': 'localhost',
+        'NAME': 'd6td15oc477io2',
+        'USER': 'tzqqvgsawdkoob',
+        'PASSWORD': 'e703b1f0cfc3b98e57204dff4125f302fe128f606fec509323a45e1f2a796b11',
+        'HOST': 'ec2-54-197-232-203.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
